@@ -10,18 +10,18 @@
     }
     
     #main_nav{
-        background-color: lightgray;
+        background-color: darkgreen;
         border-radius: 33px;
         position: relative;
     }
     #main_nav li:hover{
         cursor: pointer;
-        background-color: gray;
+        background-color: green;
         border-radius: 33px;
     }
     #dropdown{
         display:none;
-        background-color: lightgray;
+        background-color:darkgreen;
         border-radius: 33px;
     }
     
@@ -30,4 +30,6 @@
         flex-direction: column;
         position: absolute;
     }
-    
+body{
+    background-color:lightgreen;
+}

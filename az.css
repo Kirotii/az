@@ -1,1 +1,33 @@
-
+#main_nav li{
+    display:inline-block;
+    padding: 5px;
+    font-size:2rem;
+    font-family: arial;
+    }
+    #main_nav a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    #main_nav{
+        background-color: lightgray;
+        border-radius: 33px;
+        position: relative;
+    }
+    #main_nav li:hover{
+        cursor: pointer;
+        background-color: gray;
+        border-radius: 33px;
+    }
+    #dropdown{
+        display:none;
+        background-color: lightgray;
+        border-radius: 33px;
+    }
+    
+    #dropdown.active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    
